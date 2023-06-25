@@ -20,8 +20,8 @@ return {
 			}
 		},
 		hs_mob = {
-			dead_object = "deadMammoth", -- TODO replace this
-			animation_group = "mammoth", -- TODO
+			dead_object = "deadMammoth", -- TODO
+			animation_group = "bison",
 			props = {
 				initialHealth = 7.9,
 				spawnFrequency = 0.5,
@@ -46,19 +46,15 @@ return {
 				deathSound = "moaAngry1",
 
 				idleAnimations = {
-					"stand1",
-					"stand2",
-					"stand3",
-					"stand4",
+					"idle"
 				},
 				agroIdleAnimations = {
-					"agro1",
+					"angryIdle",
 				},
 				sleepAnimations = {
-					"sleep1",
-					"sleep2",
+					"idle"
 				},
-				agroWalkAnimation = "agroWalk",
+				agroWalkAnimation = "run",
 			}
 		}
 	}
